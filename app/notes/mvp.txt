@@ -1,0 +1,8 @@
+MVP - Minimum Viable Product
+
+Sidebar with conversations
+Chat Window
+Logo-Name
+timestamp on messages
+direct messaging
+channels

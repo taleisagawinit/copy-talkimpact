@@ -1,0 +1,64 @@
+Icebox
+
+chat bot
+send money
+draw pictures
+temporary messages
+order a pizza
+book a hotel room
+video chat filters
+secret crushes
+live streaming
+order starbucks
+virtual assistant
+troll bot
+deleting account and flush all data
+encryption
+verified badge
+friend finder
+Location
+archive conversations
+threadception
+tagging
+video chat
+themes
+assign tasks to people
+embdedded video
+audio messages
+translation
+group video chat
+games
+plugins
+messages while in video chat
+send code snippets with syntax highlighting
+edit message after sending
+delayed drunk sending
+drunk mode - asks you math questions before you can send
+biometric sign in
+social groups
+marketplace
+mute button
+google / facebook signin
+language filter
+send gifts
+event calendear / reminder
+recommendations
+parental controls
+text completion
+message templates
+truncate long messages
+uploading files
+downloading files
+settings
+forward messages
+speech to text
+exception handling
+DND
+muting chats
+email notifications
+invite to chat via url
+captcha on register
+spell checker
+language selection
+profile preferences
+teach you how to use

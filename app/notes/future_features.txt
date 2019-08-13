@@ -1,0 +1,29 @@
+Future Features
+
+Online Status
+Emojis
+pin a conversation
+sounds
+groups
+link preview
+command line operations
+format text
+read status
+User Profile
+Contact List
+Add friends
+Delete Friends
+profile picture
+block list
+notifications
+search bar
+group messaging
+registration / sign up
+mobile version
+log in
+log out
+profile with social links
+change your password
+forgot password
+send gifs
+push notifications

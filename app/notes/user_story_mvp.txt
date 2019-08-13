@@ -1,0 +1,37 @@
+As a ______ I want ______ so that ______
+
+
+// chat window
+As as user 
+I want an area page that will show messages 
+so that I can see the messages that are sent to whatever room I'm in.
+
+// channels
+As a user 
+I want to be able to see all of the rooms that I'm participating in
+
+//sidebar with conversations
+As a user 
+I want to be able to navigate between all of the channels I'm in
+
+//Logo-Name
+As a developer
+I want the users to know the name of my app
+so that they can reference and use it
+
+//timestamp on messages
+As a user
+I want to know when messages are sent
+so that I can track the history of the conversation
+
+//direct messaging
+As a user
+I want to be able to talk to one user
+so that I can have a private conversation
+
+
+
+
+
+
+

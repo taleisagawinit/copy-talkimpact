@@ -1,0 +1,134 @@
+As a ______ I want ______ so that ______
+
+
+//online status
+As a user
+I want to know if another user is online
+so that I know if they can immediately respond
+
+//emojis
+As a user
+I want to communicate with fun icons 
+so that I express reactions in a different way from text
+
+//pin a conversation
+As a user
+I want to make a channel able to access easier
+so that I can talk to users more conveniently
+
+//sounds
+As a user
+I want to hear confirmations when I interact with the app 
+so that my actions are validated
+
+//group messaging
+As a user
+I want to talk to more than 1 user at a time
+so that I can have conversations with more people
+
+//link preview
+As a user
+I want to see a preview of what a link will be showing me
+so that I have a better idea of what that link will take me to
+
+//command line operations
+As a user
+I want to conveniently do actions in the app
+so that the actions will be faster
+
+//format text
+As a user
+I want to be able to send content in a customized way
+so that my content will be displayed how I want
+
+//read status
+As a user
+I want to be able know if my messages have been opened
+so that way I know if someone is ignoring me? (lol)
+
+//user profile
+As a user
+I want other users to know who I am
+so that I can be identified or meet other users with similar interests
+
+//contact list
+As a user
+I want to see a list of people who I talk to
+so that way I can choose/reference from everyone I talk to
+
+//add friends
+As a user
+I want to add to the list of people who I talk to
+
+//delete friends
+As a user 
+I want to remove people who I do not talk to anymore
+
+//profile picture
+As a user
+I want to be able to upload a photo to represent who I am
+
+//block list
+As a user
+I want to be able to add people to a list of people who cannot contact me
+so that I am not bothered by people who I do not want to interact with me (lol)
+
+//notifications
+As a user
+I want to know when I have received a message or anything important has happened on the app
+so that I don't have to constantly check the app for those things
+
+//search bar
+As a user
+I wanted to be able to find something specific from a conversation or channel
+so that I can reference it later if I need to
+
+//groups
+As a user
+I want to find channels with people with similar interest that I can join
+
+//registration / sign up 
+As a user
+I want to be able to create a personal account that has all of my conversations and profile saved to it
+so that I don't have to restart channels/profiles/contacts from scratch each time I use the app
+
+//mobile version
+As a user
+I want to access the app from my phone
+so that it's more convenient
+
+//log in
+As a user
+I want to access my account without anyone else being able to access it
+
+//log out
+As a user
+I want to log out of my account so that way nobody else can access it
+
+//profile with social links
+As a user
+I want to be able to be contacted on other platforms
+
+//change your password
+As a user
+I want to be able to protect my privacy and restrict access to my account
+
+//forgot password
+As a user
+I want to be able to reset my password in case I forget how to access my account
+so that I'm not restricted from my own account
+
+//send gifs
+(similar to emojis)
+As a user
+I want to be able to communicate in a fun way
+To express what I'm saying in addition to/without conventional text 
+
+//push notifications
+(similar to notifications)
+As a user
+I want to know when something important has happened on the app without having to constantly check the app
+so that its more convenient
+
+
+
