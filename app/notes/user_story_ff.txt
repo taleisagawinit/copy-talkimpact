@@ -1,5 +1,6 @@
 As a ______ I want ______ so that ______
 
+//this is for the future features
 
 //online status
 As a user
@@ -120,7 +121,7 @@ so that I'm not restricted from my own account
 
 //send gifs
 (similar to emojis)
-As a user
+As a user 
 I want to be able to communicate in a fun way
 To express what I'm saying in addition to/without conventional text 
 

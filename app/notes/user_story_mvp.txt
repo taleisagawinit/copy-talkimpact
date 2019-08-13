@@ -1,5 +1,6 @@
 As a ______ I want ______ so that ______
 
+//this is for the minimum viable product
 
 // chat window
 As as user 
