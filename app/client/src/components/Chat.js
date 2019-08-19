@@ -20,13 +20,13 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function OutlinedTextFields() {
+export default props => {
   const classes = useStyles();
   const [message, setMessage] = useState('')
 
   function handleSubmit(e) {
     e.preventDefault()
-    sendMessage(message)
+    sendMessage(message, props.room)
     setMessage('')
   }
 
