@@ -3,9 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { useSelector } from 'react-redux'
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-
+import PersonIcon from '@material-ui/icons/Person'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -17,8 +15,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function PaperSheet() {
-  const messages = useSelector(appState => appState.chatReducer.messages)
+export default props => {
+  const messages = useSelector(appState => appState.chatReducer.messages.filter(message => message.room === props.room))
   const classes = useStyles();
 
   return (
@@ -29,7 +27,8 @@ export default function PaperSheet() {
       <Paper className={classes.root}>
         {messages.map((message, i) => (
           <div key={'message' + i} className={classes.card}>
-            <Typography variant="body3" component="h3">
+            <PersonIcon />
+            <Typography variant="h6" component="h3">
               {message.username}:
             </Typography>
             <Typography variant="body2" component="p">

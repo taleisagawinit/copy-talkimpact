@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Room() {
+export default props => {
   const classes = useStyles();
 
   function handleSubmit(e) {
@@ -69,8 +69,8 @@ export default function Room() {
               Sign Out
             </Button>
           </form>
-        <Messages />
-        <Chat />
+        <Messages room={props.match.params.roomname} />
+        <Chat room={props.match.params.roomname}/>
       </Container>
     </div>
   );
