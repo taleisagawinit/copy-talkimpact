@@ -39,6 +39,7 @@ export default props => {
         rowsMax="3"
         value={message}
         fullWidth
+        autoFocus
         onChange={e => setMessage(e.target.value)}
         className={classes.textField}
         margin="normal"

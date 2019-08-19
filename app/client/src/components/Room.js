@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -6,7 +6,8 @@ import Button from '@material-ui/core/Button';
 import { setLogout } from '../actions/login.actions'
 import Messages from './Messages'
 import Chat from './Chat'
-
+import { join } from '../actions/chat.actions'
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -50,7 +51,11 @@ const useStyles = makeStyles(theme => ({
 export default props => {
   const classes = useStyles();
 
-  function handleSubmit(e) {
+  useEffect(() => {
+    join(props.match.params.roomname)
+  }, [props.match.params.roomname])
+
+  function handleLogout(e) {
     e.preventDefault()
     setLogout()
   }
@@ -59,16 +64,17 @@ export default props => {
     <div className={classes.root}>
       <CssBaseline />
       <Container component="main" className={classes.main} maxWidth="md">
-        <form onSubmit={handleSubmit}>
-          <Button
-              type="submit"
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-              Sign Out
-            </Button>
-          </form>
+        <Button
+            type="submit"
+            variant="contained"
+            color="primary"
+            onClick={handleLogout}
+            className={classes.submit}
+          >
+            Sign Out
+        </Button>
+        <Link to="/foobar">foobar</Link>
+        <Link to="/general">general</Link>
         <Messages room={props.match.params.roomname} />
         <Chat room={props.match.params.roomname}/>
       </Container>
